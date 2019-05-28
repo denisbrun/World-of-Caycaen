@@ -1,0 +1,97 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url('../img/background.jpg') no-repeat;
+    background-size: 150%;
+}
+
+
+/*Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin:0;
+}
+
+/* Header */
+header{
+    background: #5D5D5D;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    opacity: .85;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px
+}
+
+header .current a{
+    color: #5EE56B;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+}
+
+/* homepageWorldSection */
+#homepageWorldSection{
+    min-height: 250px;
+    background: #ffffff;
+    margin-top:25px;
+}
+
+#homepageWorldSection h1{
+    margin-top: 100px;
+}
+
+/* homepageAdventureSection */
+#homepageAdventureSection{
+    min-height: 250px;
+    background: #ffffff;
+    opacity: .65;
+}
+
+#homepageAdventureSection h1{
+    margin-top: 100px;
+}
+
+/* homepagePartySection */
+#homepagePartySection{
+    min-height: 250px;
+    background: #ffffff;
+    margin-bottom:25px;
+}
+
+#homepagePartySection h1{
+    margin-top: 100px;
+}
